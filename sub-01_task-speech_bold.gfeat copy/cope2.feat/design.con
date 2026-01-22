@@ -1,0 +1,14 @@
+/ContrastName1	Int+ 
+/ContrastName2	Int- 
+/ContrastName3	IQ+ 
+/ContrastName4	IQ- 
+/NumWaves	2
+/NumContrasts	4
+/PPheights		4.449518e-01	4.449518e-01	4.500000e+01	4.500000e+01
+/RequiredEffect		2.244	2.244	2.254	2.254
+
+/Matrix
+1.000000e+00 0.000000e+00 
+-1.000000e+00 0.000000e+00 
+0.000000e+00 1.000000e+00 
+0.000000e+00 -1.000000e+00 
