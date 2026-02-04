@@ -1,0 +1,596 @@
+<HTML><HEAD>
+<!--refreshstart-->
+
+<!--refreshstop-->
+<link REL=stylesheet TYPE=text/css href=.files/fsl.css>
+<TITLE>FSL</TITLE></HEAD><BODY><OBJECT data=report.html></OBJECT>
+<h2>Progress Report / Log</h2>
+Started at Wed Feb  4 10:02:17 PST 2026<p>
+Feat main script<br><pre>
+
+/bin/cp /var/folders/bt/jnhv97x567d_zw77p84pr9v40000gn/T/feat_j9xmfjj6.fsf design.fsf
+
+/Users/katy/fsl/bin/feat_model design
+
+mkdir .files;cp /Users/katy/fsl/doc/fsl.css .files;cp -r /Users/katy/fsl/doc/images .files/images
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat2_pre   /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat -gfeatprep
+18754
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3a_flame -j 18754  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope1.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope1.feat -I 1 -flame1
+28000
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3b_flame -j 28000 -t ./.flame
+28132
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3c_flame -j 28132  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope1.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope1.feat -flame3
+28150
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat4_post -j 28150  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope1.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope1.feat -poststats 1
+28197
+
+/Users/katy/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 28197  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope1.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope1.feat -stop
+29071
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3a_flame -j 18754  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope2.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope2.feat -I 2 -flame1
+29438
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3b_flame -j 29438 -t ./.flame
+29834
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3c_flame -j 29834  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope2.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope2.feat -flame3
+29851
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat4_post -j 29851  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope2.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope2.feat -poststats 1
+29886
+
+/Users/katy/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 29886  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope2.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope2.feat -stop
+30411
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3a_flame -j 18754  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope3.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope3.feat -I 3 -flame1
+30573
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3b_flame -j 30573 -t ./.flame
+30707
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3c_flame -j 30707  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope3.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope3.feat -flame3
+30725
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat4_post -j 30725  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope3.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope3.feat -poststats 1
+30760
+
+/Users/katy/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 30760  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope3.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope3.feat -stop
+31284
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3a_flame -j 18754  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope4.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope4.feat -I 4 -flame1
+31445
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3b_flame -j 31445 -t ./.flame
+31577
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3c_flame -j 31577  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope4.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope4.feat -flame3
+31594
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat4_post -j 31594  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope4.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope4.feat -poststats 1
+31629
+
+/Users/katy/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 31629  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope4.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope4.feat -stop
+32151
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3a_flame -j 18754  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope5.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope5.feat -I 5 -flame1
+32312
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3b_flame -j 32312 -t ./.flame
+32444
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3c_flame -j 32444  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope5.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope5.feat -flame3
+32461
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat4_post -j 32461  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope5.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope5.feat -poststats 1
+32497
+
+/Users/katy/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 32497  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope5.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope5.feat -stop
+33019
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3a_flame -j 18754  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope6.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope6.feat -I 6 -flame1
+33180
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3b_flame -j 33180 -t ./.flame
+33312
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3c_flame -j 33312  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope6.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope6.feat -flame3
+33331
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat4_post -j 33331  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope6.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope6.feat -poststats 1
+33366
+
+/Users/katy/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 33366  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope6.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope6.feat -stop
+33891
+
+/Users/katy/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 29071,30411,31284,32151,33019,33891  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat/cope6.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+++.gfeat -stop
+</pre><hr>Higher-level input files preparation<br><pre>
+
+/Users/katy/fsl/bin/featregapply /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat
+
+/Users/katy/fsl/bin/featregapply /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat
+
+/Users/katy/fsl/bin/featregapply /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat
+
+/Users/katy/fsl/bin/featregapply /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat
+
+/Users/katy/fsl/bin/featregapply /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat
+
+/Users/katy/fsl/bin/featregapply /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat
+
+/Users/katy/fsl/bin/featregapply /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat
+
+/Users/katy/fsl/bin/featregapply /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat
+
+/Users/katy/fsl/bin/featregapply /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat
+
+/Users/katy/fsl/bin/featregapply /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat
+
+/Users/katy/fsl/bin/featregapply /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat
+
+/Users/katy/fsl/bin/featregapply /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat
+
+/Users/katy/fsl/bin/featregapply /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat
+
+/Users/katy/fsl/bin/featregapply /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat
+
+/Users/katy/fsl/bin/featregapply /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat
+
+/Users/katy/fsl/bin/featregapply /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat
+
+/Users/katy/fsl/bin/featregapply /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat
+
+/Users/katy/fsl/bin/featregapply /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat
+
+/Users/katy/fsl/bin/featregapply /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat
+
+/Users/katy/fsl/bin/featregapply /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat
+
+/Users/katy/fsl/bin/featregapply /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat
+
+/Users/katy/fsl/bin/featregapply /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat
+
+/Users/katy/fsl/bin/featregapply /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat
+
+/Users/katy/fsl/bin/fslmerge -t bg_image  /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/reg/highres /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/reg/highres /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/reg/highres /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/reg/highres /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/reg/highres /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/reg/highres /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/reg/highres /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/reg/highres /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/reg/highres /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/reg/highres /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/reg/highres /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/reg/highres /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/reg/highres /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/reg/highres /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/reg/highres /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/reg/highres /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/reg/highres /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/reg/highres /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/reg/highres /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/reg/highres /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/reg/highres /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/reg/highres /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/reg/highres
+
+/Users/katy/fsl/bin/fslmaths bg_image -inm 1000 -Tmean bg_image -odt float
+
+/Users/katy/fsl/bin/fslmerge -t mask  /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/mask /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/mask /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/mask /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/mask /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/mask /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/mask /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/mask /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/mask /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/mask /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/mask /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/mask /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/mask /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/mask /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/mask /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/mask /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/mask /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/mask /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/mask /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/mask /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/mask /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/mask /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/mask /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/mask
+
+mkdir -p inputreg
+
+/Users/katy/fsl/bin/fslmaths ../mask -mul 23 -Tmean masksum -odt short
+
+/Users/katy/fsl/bin/fslmaths masksum -thr 23 -add masksum masksum
+
+/Users/katy/fsl/bin/overlay 0 0 -c ../bg_image -a masksum 0.9 46 masksum_overlay
+
+/Users/katy/fsl/bin/slicer masksum_overlay -S 2 750 masksum_overlay.png
+
+/Users/katy/fsl/bin/fslmaths masksum -mul 0 maskunique
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/mask -mul -1 -add 1 -mul 1 -add maskunique maskunique
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/mask -mul -1 -add 1 -mul 2 -add maskunique maskunique
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/mask -mul -1 -add 1 -mul 3 -add maskunique maskunique
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/mask -mul -1 -add 1 -mul 4 -add maskunique maskunique
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/mask -mul -1 -add 1 -mul 5 -add maskunique maskunique
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/mask -mul -1 -add 1 -mul 6 -add maskunique maskunique
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/mask -mul -1 -add 1 -mul 7 -add maskunique maskunique
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/mask -mul -1 -add 1 -mul 8 -add maskunique maskunique
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/mask -mul -1 -add 1 -mul 9 -add maskunique maskunique
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/mask -mul -1 -add 1 -mul 10 -add maskunique maskunique
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/mask -mul -1 -add 1 -mul 11 -add maskunique maskunique
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/mask -mul -1 -add 1 -mul 12 -add maskunique maskunique
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/mask -mul -1 -add 1 -mul 13 -add maskunique maskunique
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/mask -mul -1 -add 1 -mul 14 -add maskunique maskunique
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/mask -mul -1 -add 1 -mul 15 -add maskunique maskunique
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/mask -mul -1 -add 1 -mul 16 -add maskunique maskunique
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/mask -mul -1 -add 1 -mul 17 -add maskunique maskunique
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/mask -mul -1 -add 1 -mul 18 -add maskunique maskunique
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/mask -mul -1 -add 1 -mul 19 -add maskunique maskunique
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/mask -mul -1 -add 1 -mul 20 -add maskunique maskunique
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/mask -mul -1 -add 1 -mul 21 -add maskunique maskunique
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/mask -mul -1 -add 1 -mul 22 -add maskunique maskunique
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/mask -mul -1 -add 1 -mul 23 -add maskunique maskunique
+
+/Users/katy/fsl/bin/fslmaths masksum -thr 22 -uthr 22 -bin -mul maskunique maskunique
+
+/Users/katy/fsl/bin/overlay 0 0 ../bg_image -a maskunique 0.9 23 maskunique_overlay
+
+/Users/katy/fsl/bin/slicer maskunique_overlay -S 2 750 maskunique_overlay.png
+
+/bin/cp /Users/katy/fsl/etc/luts/ramp.gif .ramp.gif
+
+/Users/katy/fsl/bin/fslmaths mask -Tmin mask
+
+/Users/katy/fsl/bin/fslmerge -t mean_func  /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/mean_func /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/mean_func /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/mean_func /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/mean_func /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/mean_func /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/mean_func /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/mean_func /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/mean_func /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/mean_func /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/mean_func /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/mean_func /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/mean_func /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/mean_func /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/mean_func /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/mean_func /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/mean_func /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/mean_func /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/mean_func /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/mean_func /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/mean_func /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/mean_func /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/mean_func /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/mean_func
+
+/Users/katy/fsl/bin/fslmaths mean_func -Tmean mean_func
+
+/Users/katy/fsl/bin/fslmerge -t cope1  /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/stats/cope1 /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/stats/cope1 /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/stats/cope1 /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/stats/cope1 /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/stats/cope1 /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/stats/cope1 /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/stats/cope1 /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/stats/cope1 /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/stats/cope1 /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/stats/cope1 /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/stats/cope1 /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/stats/cope1 /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/stats/cope1 /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/stats/cope1 /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/stats/cope1 /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/stats/cope1 /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/stats/cope1 /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/stats/cope1 /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/stats/cope1 /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/stats/cope1 /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/stats/cope1 /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/stats/cope1 /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/stats/cope1
+
+/Users/katy/fsl/bin/fslmaths cope1 -mas mask cope1
+
+printf '1.2570928260869565 ' >> design.lcon
+
+/Users/katy/fsl/bin/fslmerge -t varcope1  /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/stats/varcope1 /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/stats/varcope1 /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/stats/varcope1 /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/stats/varcope1 /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/stats/varcope1 /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/stats/varcope1 /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/stats/varcope1 /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/stats/varcope1 /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/stats/varcope1 /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/stats/varcope1 /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/stats/varcope1 /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/stats/varcope1 /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/stats/varcope1 /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/stats/varcope1 /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/stats/varcope1 /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/stats/varcope1 /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/stats/varcope1 /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/stats/varcope1 /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/stats/varcope1 /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/stats/varcope1 /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/stats/varcope1 /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/stats/varcope1 /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/stats/varcope1
+
+/Users/katy/fsl/bin/fslmaths varcope1 -mas mask varcope1
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/stats/cope1 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/stats/cope1 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/stats/cope1 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/stats/cope1 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/stats/cope1 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/stats/cope1 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/stats/cope1 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/stats/cope1 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/stats/cope1 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/stats/cope1 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/stats/cope1 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/stats/cope1 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/stats/cope1 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/stats/cope1 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/stats/cope1 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/stats/cope1 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/stats/cope1 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/stats/cope1 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/stats/cope1 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/stats/cope1 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/stats/cope1 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/stats/cope1 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/stats/cope1 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1
+
+/Users/katy/fsl/bin/fslmerge -t tdof_t1  /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1 /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1 /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1 /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1 /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1 /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1 /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1 /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1 /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1 /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1 /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1 /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1 /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1 /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1 /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1 /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1 /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1 /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1 /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1 /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1 /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1 /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1 /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/stats/FEtdof_t1
+
+/Users/katy/fsl/bin/fslmaths tdof_t1 -mas mask tdof_t1
+
+/Users/katy/fsl/bin/fslmerge -t cope2  /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/stats/cope2 /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/stats/cope2 /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/stats/cope2 /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/stats/cope2 /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/stats/cope2 /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/stats/cope2 /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/stats/cope2 /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/stats/cope2 /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/stats/cope2 /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/stats/cope2 /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/stats/cope2 /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/stats/cope2 /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/stats/cope2 /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/stats/cope2 /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/stats/cope2 /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/stats/cope2 /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/stats/cope2 /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/stats/cope2 /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/stats/cope2 /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/stats/cope2 /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/stats/cope2 /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/stats/cope2 /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/stats/cope2
+
+/Users/katy/fsl/bin/fslmaths cope2 -mas mask cope2
+
+printf '1.2570928260869565 ' >> design.lcon
+
+/Users/katy/fsl/bin/fslmerge -t varcope2  /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/stats/varcope2 /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/stats/varcope2 /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/stats/varcope2 /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/stats/varcope2 /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/stats/varcope2 /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/stats/varcope2 /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/stats/varcope2 /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/stats/varcope2 /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/stats/varcope2 /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/stats/varcope2 /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/stats/varcope2 /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/stats/varcope2 /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/stats/varcope2 /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/stats/varcope2 /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/stats/varcope2 /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/stats/varcope2 /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/stats/varcope2 /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/stats/varcope2 /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/stats/varcope2 /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/stats/varcope2 /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/stats/varcope2 /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/stats/varcope2 /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/stats/varcope2
+
+/Users/katy/fsl/bin/fslmaths varcope2 -mas mask varcope2
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/stats/cope2 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/stats/cope2 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/stats/cope2 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/stats/cope2 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/stats/cope2 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/stats/cope2 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/stats/cope2 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/stats/cope2 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/stats/cope2 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/stats/cope2 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/stats/cope2 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/stats/cope2 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/stats/cope2 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/stats/cope2 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/stats/cope2 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/stats/cope2 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/stats/cope2 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/stats/cope2 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/stats/cope2 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/stats/cope2 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/stats/cope2 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/stats/cope2 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/stats/cope2 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2
+
+/Users/katy/fsl/bin/fslmerge -t tdof_t2  /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2 /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2 /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2 /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2 /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2 /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2 /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2 /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2 /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2 /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2 /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2 /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2 /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2 /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2 /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2 /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2 /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2 /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2 /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2 /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2 /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2 /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2 /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/stats/FEtdof_t2
+
+/Users/katy/fsl/bin/fslmaths tdof_t2 -mas mask tdof_t2
+
+/Users/katy/fsl/bin/fslmerge -t cope3  /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/stats/cope3 /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/stats/cope3 /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/stats/cope3 /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/stats/cope3 /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/stats/cope3 /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/stats/cope3 /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/stats/cope3 /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/stats/cope3 /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/stats/cope3 /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/stats/cope3 /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/stats/cope3 /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/stats/cope3 /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/stats/cope3 /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/stats/cope3 /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/stats/cope3 /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/stats/cope3 /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/stats/cope3 /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/stats/cope3 /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/stats/cope3 /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/stats/cope3 /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/stats/cope3 /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/stats/cope3 /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/stats/cope3
+
+/Users/katy/fsl/bin/fslmaths cope3 -mas mask cope3
+
+printf '1.2551202608695655 ' >> design.lcon
+
+/Users/katy/fsl/bin/fslmerge -t varcope3  /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/stats/varcope3 /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/stats/varcope3 /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/stats/varcope3 /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/stats/varcope3 /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/stats/varcope3 /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/stats/varcope3 /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/stats/varcope3 /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/stats/varcope3 /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/stats/varcope3 /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/stats/varcope3 /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/stats/varcope3 /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/stats/varcope3 /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/stats/varcope3 /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/stats/varcope3 /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/stats/varcope3 /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/stats/varcope3 /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/stats/varcope3 /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/stats/varcope3 /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/stats/varcope3 /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/stats/varcope3 /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/stats/varcope3 /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/stats/varcope3 /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/stats/varcope3
+
+/Users/katy/fsl/bin/fslmaths varcope3 -mas mask varcope3
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/stats/cope3 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/stats/cope3 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/stats/cope3 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/stats/cope3 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/stats/cope3 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/stats/cope3 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/stats/cope3 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/stats/cope3 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/stats/cope3 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/stats/cope3 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/stats/cope3 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/stats/cope3 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/stats/cope3 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/stats/cope3 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/stats/cope3 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/stats/cope3 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/stats/cope3 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/stats/cope3 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/stats/cope3 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/stats/cope3 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/stats/cope3 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/stats/cope3 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/stats/cope3 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3
+
+/Users/katy/fsl/bin/fslmerge -t tdof_t3  /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3 /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3 /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3 /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3 /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3 /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3 /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3 /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3 /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3 /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3 /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3 /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3 /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3 /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3 /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3 /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3 /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3 /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3 /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3 /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3 /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3 /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3 /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/stats/FEtdof_t3
+
+/Users/katy/fsl/bin/fslmaths tdof_t3 -mas mask tdof_t3
+
+/Users/katy/fsl/bin/fslmerge -t cope4  /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/stats/cope4 /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/stats/cope4 /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/stats/cope4 /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/stats/cope4 /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/stats/cope4 /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/stats/cope4 /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/stats/cope4 /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/stats/cope4 /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/stats/cope4 /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/stats/cope4 /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/stats/cope4 /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/stats/cope4 /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/stats/cope4 /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/stats/cope4 /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/stats/cope4 /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/stats/cope4 /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/stats/cope4 /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/stats/cope4 /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/stats/cope4 /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/stats/cope4 /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/stats/cope4 /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/stats/cope4 /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/stats/cope4
+
+/Users/katy/fsl/bin/fslmaths cope4 -mas mask cope4
+
+printf '1.2551202608695655 ' >> design.lcon
+
+/Users/katy/fsl/bin/fslmerge -t varcope4  /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/stats/varcope4 /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/stats/varcope4 /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/stats/varcope4 /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/stats/varcope4 /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/stats/varcope4 /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/stats/varcope4 /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/stats/varcope4 /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/stats/varcope4 /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/stats/varcope4 /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/stats/varcope4 /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/stats/varcope4 /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/stats/varcope4 /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/stats/varcope4 /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/stats/varcope4 /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/stats/varcope4 /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/stats/varcope4 /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/stats/varcope4 /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/stats/varcope4 /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/stats/varcope4 /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/stats/varcope4 /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/stats/varcope4 /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/stats/varcope4 /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/stats/varcope4
+
+/Users/katy/fsl/bin/fslmaths varcope4 -mas mask varcope4
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/stats/cope4 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/stats/cope4 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/stats/cope4 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/stats/cope4 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/stats/cope4 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/stats/cope4 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/stats/cope4 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/stats/cope4 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/stats/cope4 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/stats/cope4 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/stats/cope4 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/stats/cope4 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/stats/cope4 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/stats/cope4 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/stats/cope4 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/stats/cope4 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/stats/cope4 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/stats/cope4 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/stats/cope4 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/stats/cope4 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/stats/cope4 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/stats/cope4 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/stats/cope4 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4
+
+/Users/katy/fsl/bin/fslmerge -t tdof_t4  /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4 /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4 /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4 /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4 /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4 /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4 /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4 /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4 /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4 /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4 /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4 /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4 /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4 /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4 /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4 /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4 /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4 /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4 /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4 /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4 /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4 /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4 /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/stats/FEtdof_t4
+
+/Users/katy/fsl/bin/fslmaths tdof_t4 -mas mask tdof_t4
+
+/Users/katy/fsl/bin/fslmerge -t cope5  /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/stats/cope5 /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/stats/cope5 /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/stats/cope5 /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/stats/cope5 /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/stats/cope5 /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/stats/cope5 /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/stats/cope5 /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/stats/cope5 /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/stats/cope5 /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/stats/cope5 /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/stats/cope5 /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/stats/cope5 /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/stats/cope5 /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/stats/cope5 /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/stats/cope5 /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/stats/cope5 /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/stats/cope5 /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/stats/cope5 /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/stats/cope5 /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/stats/cope5 /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/stats/cope5 /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/stats/cope5 /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/stats/cope5
+
+/Users/katy/fsl/bin/fslmaths cope5 -mas mask cope5
+
+printf '1.28422 ' >> design.lcon
+
+/Users/katy/fsl/bin/fslmerge -t varcope5  /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/stats/varcope5 /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/stats/varcope5 /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/stats/varcope5 /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/stats/varcope5 /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/stats/varcope5 /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/stats/varcope5 /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/stats/varcope5 /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/stats/varcope5 /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/stats/varcope5 /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/stats/varcope5 /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/stats/varcope5 /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/stats/varcope5 /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/stats/varcope5 /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/stats/varcope5 /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/stats/varcope5 /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/stats/varcope5 /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/stats/varcope5 /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/stats/varcope5 /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/stats/varcope5 /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/stats/varcope5 /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/stats/varcope5 /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/stats/varcope5 /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/stats/varcope5
+
+/Users/katy/fsl/bin/fslmaths varcope5 -mas mask varcope5
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/stats/cope5 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/stats/cope5 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/stats/cope5 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/stats/cope5 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/stats/cope5 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/stats/cope5 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/stats/cope5 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/stats/cope5 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/stats/cope5 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/stats/cope5 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/stats/cope5 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/stats/cope5 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/stats/cope5 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/stats/cope5 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/stats/cope5 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/stats/cope5 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/stats/cope5 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/stats/cope5 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/stats/cope5 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/stats/cope5 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/stats/cope5 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/stats/cope5 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/stats/cope5 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5
+
+/Users/katy/fsl/bin/fslmerge -t tdof_t5  /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5 /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5 /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5 /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5 /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5 /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5 /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5 /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5 /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5 /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5 /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5 /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5 /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5 /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5 /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5 /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5 /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5 /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5 /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5 /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5 /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5 /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5 /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/stats/FEtdof_t5
+
+/Users/katy/fsl/bin/fslmaths tdof_t5 -mas mask tdof_t5
+
+/Users/katy/fsl/bin/fslmerge -t cope6  /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/stats/cope6 /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/stats/cope6 /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/stats/cope6 /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/stats/cope6 /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/stats/cope6 /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/stats/cope6 /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/stats/cope6 /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/stats/cope6 /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/stats/cope6 /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/stats/cope6 /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/stats/cope6 /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/stats/cope6 /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/stats/cope6 /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/stats/cope6 /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/stats/cope6 /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/stats/cope6 /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/stats/cope6 /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/stats/cope6 /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/stats/cope6 /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/stats/cope6 /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/stats/cope6 /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/stats/cope6 /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/stats/cope6
+
+/Users/katy/fsl/bin/fslmaths cope6 -mas mask cope6
+
+printf '1.28422 ' >> design.lcon
+
+/Users/katy/fsl/bin/fslmerge -t varcope6  /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/stats/varcope6 /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/stats/varcope6 /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/stats/varcope6 /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/stats/varcope6 /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/stats/varcope6 /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/stats/varcope6 /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/stats/varcope6 /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/stats/varcope6 /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/stats/varcope6 /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/stats/varcope6 /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/stats/varcope6 /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/stats/varcope6 /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/stats/varcope6 /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/stats/varcope6 /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/stats/varcope6 /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/stats/varcope6 /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/stats/varcope6 /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/stats/varcope6 /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/stats/varcope6 /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/stats/varcope6 /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/stats/varcope6 /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/stats/varcope6 /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/stats/varcope6
+
+/Users/katy/fsl/bin/fslmaths varcope6 -mas mask varcope6
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/stats/cope6 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/stats/cope6 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/stats/cope6 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/stats/cope6 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/stats/cope6 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/stats/cope6 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/stats/cope6 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/stats/cope6 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/stats/cope6 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/stats/cope6 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/stats/cope6 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/stats/cope6 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/stats/cope6 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/stats/cope6 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/stats/cope6 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/stats/cope6 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/stats/cope6 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/stats/cope6 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/stats/cope6 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/stats/cope6 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/stats/cope6 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/stats/cope6 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6
+
+/Users/katy/fsl/bin/fslmaths /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/stats/cope6 -mul 0 -add 326   /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6
+
+/Users/katy/fsl/bin/fslmerge -t tdof_t6  /Users/katy/desktop/ds004302-download/sub-55/func/sub-55_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6 /Users/katy/desktop/ds004302-download/sub-56/func/sub-56_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6 /Users/katy/desktop/ds004302-download/sub-57/func/sub-57_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6 /Users/katy/desktop/ds004302-download/sub-58/func/sub-58_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6 /Users/katy/desktop/ds004302-download/sub-59/func/sub-59_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6 /Users/katy/desktop/ds004302-download/sub-60/func/sub-60_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6 /Users/katy/desktop/ds004302-download/sub-61/func/sub-61_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6 /Users/katy/desktop/ds004302-download/sub-62/func/sub-62_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6 /Users/katy/desktop/ds004302-download/sub-63/func/sub-63_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6 /Users/katy/desktop/ds004302-download/sub-64/func/sub-64_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6 /Users/katy/desktop/ds004302-download/sub-65/func/sub-65_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6 /Users/katy/desktop/ds004302-download/sub-66/func/sub-66_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6 /Users/katy/desktop/ds004302-download/sub-67/func/sub-67_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6 /Users/katy/desktop/ds004302-download/sub-68/func/sub-68_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6 /Users/katy/desktop/ds004302-download/sub-69/func/sub-69_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6 /Users/katy/desktop/ds004302-download/sub-70/func/sub-70_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6 /Users/katy/desktop/ds004302-download/sub-71/func/sub-71_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6 /Users/katy/desktop/ds004302-download/sub-72/func/sub-72_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6 /Users/katy/desktop/ds004302-download/sub-73/func/sub-73_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6 /Users/katy/desktop/ds004302-download/sub-74/func/sub-74_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6 /Users/katy/desktop/ds004302-download/sub-75/func/sub-75_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6 /Users/katy/desktop/ds004302-download/sub-76/func/sub-76_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6 /Users/katy/desktop/ds004302-download/sub-77/func/sub-77_task-speech_bold+.feat/reg_standard/stats/FEtdof_t6
+
+/Users/katy/fsl/bin/fslmaths tdof_t6 -mas mask tdof_t6
+</pre><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></BODY></HTML>

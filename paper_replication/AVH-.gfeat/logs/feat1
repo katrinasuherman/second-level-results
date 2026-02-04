@@ -1,0 +1,102 @@
+
+/bin/cp /var/folders/bt/jnhv97x567d_zw77p84pr9v40000gn/T/feat_m9rbqv1b.fsf design.fsf
+
+/Users/katy/fsl/bin/feat_model design
+
+mkdir .files;cp /Users/katy/fsl/doc/fsl.css .files;cp -r /Users/katy/fsl/doc/images .files/images
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat2_pre   /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat -gfeatprep
+99086
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3a_flame -j 99086  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope1.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope1.feat -I 1 -flame1
+3398
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3b_flame -j 3398 -t ./.flame
+3930
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3c_flame -j 3930  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope1.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope1.feat -flame3
+4220
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat4_post -j 4220  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope1.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope1.feat -poststats 1
+4337
+
+/Users/katy/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 4337  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope1.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope1.feat -stop
+4862
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3a_flame -j 99086  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope2.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope2.feat -I 2 -flame1
+5129
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3b_flame -j 5129 -t ./.flame
+5654
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3c_flame -j 5654  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope2.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope2.feat -flame3
+5943
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat4_post -j 5943  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope2.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope2.feat -poststats 1
+6065
+
+/Users/katy/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 6065  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope2.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope2.feat -stop
+6591
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3a_flame -j 99086  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope3.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope3.feat -I 3 -flame1
+6859
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3b_flame -j 6859 -t ./.flame
+7386
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3c_flame -j 7386  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope3.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope3.feat -flame3
+7676
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat4_post -j 7676  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope3.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope3.feat -poststats 1
+7793
+
+/Users/katy/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 7793  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope3.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope3.feat -stop
+8318
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3a_flame -j 99086  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope4.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope4.feat -I 4 -flame1
+8582
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3b_flame -j 8582 -t ./.flame
+9104
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3c_flame -j 9104  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope4.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope4.feat -flame3
+9406
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat4_post -j 9406  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope4.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope4.feat -poststats 1
+9522
+
+/Users/katy/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 9522  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope4.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope4.feat -stop
+10047
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3a_flame -j 99086  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope5.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope5.feat -I 5 -flame1
+10310
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3b_flame -j 10310 -t ./.flame
+10831
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3c_flame -j 10831  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope5.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope5.feat -flame3
+11125
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat4_post -j 11125  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope5.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope5.feat -poststats 1
+11258
+
+/Users/katy/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 11258  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope5.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope5.feat -stop
+11785
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3a_flame -j 99086  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope6.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope6.feat -I 6 -flame1
+12051
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3b_flame -j 12051 -t ./.flame
+12581
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat3c_flame -j 12581  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope6.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope6.feat -flame3
+12870
+
+/Users/katy/fsl/bin/fsl_sub -T 60 -l logs -N feat4_post -j 12870  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope6.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope6.feat -poststats 1
+12989
+
+/Users/katy/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 12989  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope6.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope6.feat -stop
+13513
+
+/Users/katy/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 4862,6591,8318,10047,11785,13513  /Users/katy/fsl/bin/feat /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat/cope6.feat/design.fsf -D /Users/katy/Desktop/ds004302-download/sub-26/func/sub-26_task-speech_bold++++++.gfeat -stop
+13653
